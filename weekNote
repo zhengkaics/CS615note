@@ -32,3 +32,9 @@ I decided use t1-micro.
 
 after I successful launch instance. I cannot using ssh to log in instance.
 After try many ways, I find I need sudo first.
+
+
+read materials    topic "different linux and unix"
+https://www.diffen.com/difference/Linux_vs_Unix
+https://www.cyberciti.biz/faq/what-is-the-difference-between-linux-and-unix/
+
