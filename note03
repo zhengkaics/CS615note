@@ -1,0 +1,24 @@
+Zhengkai Wei note 3
+Software installation concept
+I have read some material the link are:
+https://en.wikipedia.org/wiki/Linux_startup_process
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/ch-yum
+https://en.wikipedia.org/wiki/Yellow_Dog_Updater,_Modified
+
+I this week I learn the system startup sequence and the Software installation concept.
+the startup sequence are:
+1 . The BIOS performs startup tasks specific to the actual hardware platform. 
+And makesure the hardware which is necessary for boot is initialized correctly, 
+the BIOS loads and executes the boot code from the configured boot device.
+2 . The boot load the option of which device is first startup device option.
+3 . Load kernel, start kernel.
+4 . start init(), init get run-level.
+5 . init run /etc/rc.d/rc.sysinit
+6 . init run etc/rc.d/rc.local
+7 . run the process of login the user can login now.
+
+About Software installation concept
+RPM RedHat Package Manager is compiled Software we can install directly.
+SRPM is Source RPM means the RPM include the source code of Software.
+package and dependency management like YUM is a RPM-based distributions.
+We can use package and dependency management easy install ,uninstall  and updata the software.
