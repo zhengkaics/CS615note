@@ -1,0 +1,28 @@
+Zhengkai Wei note
+pre class learn 
+read material link:
+https://wiki.archlinux.org/index.php/users_and_groups
+
+the user accout 0 is root accout.
+and UID 1-499(different system are different) are system user no person can use.
+UID 500-65535 or 500-4294967295(different system are different) are for person to use.
+
+Unix group can help us easy control many users permissions.
+If we need create many user accounts and they have same permissions, 
+we need not give those user accounts permissions one by one, 
+we can create a group and give this group permissions and add those user accounts in this group.
+
+Limitations of Unix group carry
+A UNIX user has a primary group, defined in the passwd database, but can also be a member of many other groups, defined in the groups database.
+UNIX has a hardcoded limit of 16 groups a user can be a member of . 
+This means that if we translate  clients into UNIX groups and you have access to multiple  clients, you'll be able to access only 16 of those clients at a time.
+
+
+
+three types of access permissions: read, write, and execute.
+using binary to represent the permissions of rwx, 100=4=r,10=2=w,1=1=x
+7 = 4+2+1 = rwx
+and the 777 , 
+first 7 means the permissions of file owner.
+second 7 means the permissions of users belonging to the owning group.
+third 7 means the permissions of other users.
