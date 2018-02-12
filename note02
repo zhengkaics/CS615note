@@ -1,0 +1,20 @@
+Zhengkai Wei note 2
+unix file system
+read material link:
+https://en.wikipedia.org/wiki/Unix_File_System
+https://www.geeksforgeeks.org/operating-system-unix-file-system/
+https://www.tutorialspoint.com/unix/unix-file-system.htm
+
+In this class and homework I learn how linux file system work and how unix find file in hard disk.
+It based on super block, block and inode.
+The system first read inode and file the file in which block, and then read those bolck one by one.
+And the super bolck store the information of how many inode and bolck, how many used and not used and the file format.
+And I learn many file command in the material link and learn how to attach and mount a volume and format it in aws.
+And learn if two instance with different OS support same file system then the file in the volume could be across different OS instances.
+And find in different the command is different.
+
+Reason why file in same volume/filesystem can across different OS instance:
+The user using Application Process to control files, and the Application Process using Virtual File System which in kernel to connect different filesystem.
+The filesystem rules handle how to read and write data from storage device.
+That is means if the OS support the filesystem, different filesystem have same interface to user.
+Different OS can read file even the file is not created by it.
