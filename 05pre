@@ -1,0 +1,60 @@
+05pre
+Note of cs615
+Zhengkai Wei 
+zwei11@stevens.edu
+
+I prepare for class 5 by read
+https://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html
+https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol
+https://www.webopedia.com/DidYouKnow/Hardware_Software/router_switch_hub.asp
+http://faqintosh.com/risorse/en/guides/net/tcp/basic/
+https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/
+https://www.lifewire.com/what-is-a-dns-server-2625854
+https://superuser.com/questions/267660/can-someone-please-explain-ifconfig-output-in-mac-os-x
+
+And know 
+The difference between IPV4 and IPV6 are
+IPv4 address scheme allowing for a total of 2^32 addresses.
+Written in decimal as four numbers separated by periods. Each number can be 0 to 255.
+The number of IPv6 addresses is 10^28  times larger than the number of IPv4 addresses. 
+IPv6 addresses are 128-bit IP address written in hexadecimal and separated by colons. 
+An example IPv6 address could be written like this: 3ffe:1900:4545:3:200:f8ff:fe21:67cf.
+
+The difference between UDP and TCP are:
+Both TCP and UDP are protocols used for sending bits of data
+TCP stands for Transmission Control Protoco,UDP stands for User Datagram Protocol .
+TCP guarantees the recipient will receive the packets in order by numbering them.When using UDP, packets are just sent to the recipient. 
+UDP is used when speed is desirable and error correction is not necessary. 
+
+The ICMP:
+ICMP differs from transport protocols such as TCP and UDP in that it is not typically used to exchange data between systems, 
+nor is it regularly employed by end-user network applications (with the exception of some diagnostic tools like ping and traceroute)
+
+The netmask are:
+A netmask is a 32-bit mask used to divide an IP address into subnets and specify the network's available hosts.
+
+The difference between  'switch' and a 'router:
+The router forwards data packets along networks. It is connected to at least two networks, commonly two LANs or WANs or a LAN and its ISP's network.
+In networks the switch is the device that filters and forwards packets between LAN segments. 
+Switches operate at the data link layer (layer 2) and sometimes the network layer (layer 3) of the OSI Reference Model and therefore support any packet protocol. 
+
+How cache and dns resolving url to ip address:
+
+First, it checks the browser cache. The browser maintains a repository of DNS records for a fixed duration for websites you have previously visited. So, it is the first place to run a DNS query.
+
+Second, the browser checks the OS cache. If it is not found in the browser cache, the browser would make a system call (i.e. gethostname on Windows) to your underlying computer OS to fetch the record since the OS also maintains a cache of DNS records.
+
+Third, it checks the router cache. If it’s not found on your computer, the browser would communicate with the router that maintains its’ own cache of DNS records.
+
+Fourth, it checks the ISP cache. If all steps fail, the browser would move on to the ISP. Your ISP maintains its’ own DNS server which includes a cache of DNS records which the browser would check with the last hope of finding your requested URL.
+If the requested URL is not in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server
+
+What ifconfig means 
+lo0 = loopback
+gif0 = Software Network Interface
+stf0 = 6to4 tunnel interface
+en0 = Ethernet 0
+fw0 = Firewire
+en1 = Ethernet 1
+vmnet8 = Virtual Interface
+vmnet1 = Virtual Interface
