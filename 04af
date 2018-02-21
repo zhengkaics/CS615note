@@ -1,0 +1,11 @@
+note 04af
+Note of cs615
+Zhengkai Wei 
+zwei11@stevens.edu
+This course I learn the Multi-user basics knowledge and do a in class practice
+"w"  find my username and bash
+"zwei11" is my username, I can use "id zwei11" find my uid and gid.
+ 
+use"useradd -u 12987 zwei11 " to create user 
+use "groupadd -g 30000 student" to create group
+use "usermod -g student zwei11" to put user I created into group I created.
