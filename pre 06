@@ -1,0 +1,22 @@
+cs615 prepare note 06
+Name: Zhengkai Wei
+email: zwei11@stevens.edu
+
+Reading material
+https://en.wikipedia.org/wiki/Telnet
+https://www.geeksforgeeks.org/difference-ssh-telnet/
+http://www.differencebetween.net/technology/internet/difference-between-telnet-and-ssh/
+
+For prepare this class I have read material about telnet and know telnent is used for bidirectional interactive text-oriented communicatio with other machine.
+And know because serious secuity concens we using ssh instead telnet.
+
+SSH offers security mechanisms that protect the users against anyone with malicious intent while Telnet has no security measures whatsoever.
+ 
+
+diff:
+1. SSH and Telnet commonly serves the same purpose
+2. SSH is more secure compared to Telnet
+3. SSH encrypts the data while Telnet sends data in plain text
+4. SSH uses a public key for authentication while Telnet does not use any authentication
+5. SSH adds a bit more overhead to the bandwidth compared to Telnet
+6. Telnet has been all but replaced by SSH in almost all uses
