@@ -1,0 +1,20 @@
+I prepare for this class and learn:
+HTTPS is HTTP Secure the communication protocol is encrypted by Transport Layer Security (TLS), or formerly, its predecessor, Secure Sockets Layer (SSL).
+That means the using HTTPS , The important data like password will not be leak.
+If you are user when you don't want leak you self data.
+If you are website when you  don't want other people know the data you send to user.
+ 
+If you are owner of of website HTTPS have some pitfalls.
+HTTPS make you Site slow than HTTP.
+Seach engine my could not crawling HTTPS sites if not allow it in robots.txt
+Seach engine like Google maynot know that you’ve moved.
+ 
+protocol and well-known port is usually used for SMTP
+SMTP - port 25 or 2525 or 587
+Secure SMTP (SSL / TLS) - port 465 or 25 or 587, 2526 (Elastic Email)
+
+What mechanisms exist to ascertain an email's authenticity?
+Domain Keys Identified Mail, or DKIM, is a highly regarded email security system 
+that can be used to independently authenticate the contents and sender of an email that uses it.
+Due to the complexities of modern email systems, and the fragility of cryptographic signatures,
+any formatting or character change to a message or many of its headers, no matter how small, will prevent a message from being validated.
