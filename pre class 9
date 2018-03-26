@@ -1,0 +1,27 @@
+pre class 9
+In this course we will learn writing system tools.
+And I learn different programming language for different purpose.
+Perl, PHP, Tcl, JavaScript, CoffeeScript for 
+http/web server interfaces
+CGI ”scripts” / server-side execution
+CS615 - Aspects of System Administration
+Slide 12
+interface with/utilize APIs in a specific domain/vendor products
+frequent cause of all sorts of security problems due to interface with user data / exposure on the internet
+
+C, C++, Go, Rust for 
+performance benefits
+portability
+sufficient low-levelness
+systems understanding
+fix/patch your other tools / the system
+
+And I learn difference of sh,bash,csh,ksh,zsh
+bash like kind of sh++. 
+CSH is a fairly nice interactive shell that has syntax that looks a lot more like C than that of the Bourne Shell. Traditionally, it was considerably superior for interactive use than sh.
+KSH,a platform for both interactive system control as well as shell script programming, providing far superior functionality to the Bourne Shell. In many cases, it is quite a bit faster
+ZSH,One area in which it is dramatically powerful is in its ability to interactively evaluate and modify arguments. It can do command name completion, filename completion, and is extensible such that it can use programs to evaluate possible command completions.
+
+And about Errors should never pass silently.
+When I learn write html, I notice chrome can correct run the html code even the html is incomplate. I think the program error should be report to the developer.
+And for user if it is not a big problem, the error can pass sliently.
