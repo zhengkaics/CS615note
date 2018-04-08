@@ -1,0 +1,43 @@
+After Class 5 I learn 7 layers of the OSI Model and political and financial layer.
+read materials 
+https://www.webopedia.com/quick_ref/OSI_Layers.asp
+Application (Layer 7)
+OSI Model, Layer 7, supports application and end-user processes. 
+Communication partners are identified, quality of service is identified, 
+user authentication and privacy are considered, and any constraints on data syntax are identified.
+
+Presentation (Layer 6)
+This layer provides independence from differences in data representation (e.g., encryption) by translating from application to network format, and vice versa. 
+The presentation layer works to transform data into the form that the application layer can accept. 
+This layer formats and encrypts data to be sent across a network, providing freedom from compatibility problems. 
+It is sometimes called the syntax layer.
+
+Session (Layer 5)
+This layer establishes, manages and terminates connections between applications. 
+The session layer sets up, coordinates, and terminates conversations, exchanges, and dialogues between the applications at each end. 
+It deals with session and connection coordination.
+
+Transport (Layer 4)
+OSI Model, Layer 4, provides transparent transfer of data between end systems, or hosts, and is responsible for end-to-end error recovery and flow control. 
+It ensures complete data transfer.
+
+Network (Layer 3)
+Layer 3 provides switching and routing technologies, creating logical paths, known as virtual circuits, for transmitting data from node to node. 
+Routing and forwarding are functions of this layer, as well as addressing, internetworking, error handling, congestion control and packet sequencing.
+
+Data Link (Layer 2)
+At OSI Model, Layer 2, data packets are encoded and decoded into bits. 
+It furnishes transmission protocol knowledge and management and handles errors in the physical layer, flow control and frame synchronization. 
+
+Physical (Layer 1)
+OSI Model, Layer 1 conveys the bit stream - electrical impulse, light or radio signal — through the network at the electrical and mechanical level. 
+
+And I learn 
+Layer 7 used for WWW browsers, NFS, SNMP, Telnet, HTTP, FTP 
+Layer 6 used for encryption, ASCII, EBCDIC, TIFF, GIF, PICT, JPEG, MPEG, MIDI.
+Layer 5 used for NFS, NetBios names, RPC, SQL.
+Layer 4 used for SPX, TCP, UDP. 
+
+
+And I learn how to traceroute to know which router I get through to reach the target host.
+
