@@ -1,0 +1,10 @@
+This class we will learn configuration management
+I have learn the entropy will increase when data is processed, files are created, modified, removed...
+When a software need to install the configuration need to check any prerequest software or hardware is satisfied or not.
+And need have massage of software behiver.
+And CM system is not to make changes on a system.
+And CM systems assert state.
+Configuration management asserts state. 
+To this end, it must reliably produce a defined state without side-effects and needs to be able to run under different circumstances, yet yield the same outcome. 
+If you run your CM on an unconfigured system, it will produce the same end-result as if you run it repeatedly.
+And CM needs to have support for the package manager in use on the target system.
