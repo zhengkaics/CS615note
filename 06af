@@ -1,0 +1,19 @@
+read materials
+https://www.geeksforgeeks.org/difference-ssh-telnet/
+
+This class I learn how to use telnet to connect to server on some port and request it for HTTP header of some web page.
+And how to use tcpdump capture ad analyze packet.
+
+And I learn differences between SSH and Telnet
+SSH is more secure compared to Telnet.
+SSH encrypts the data while Telnet sends data in plain text.
+SSH uses a public key for authentication while Telnet does not use any authentication.
+SSH adds a bit more overhead to the bandwidth compared to Telnet.
+Telnet has been all but replaced by SSH in almost all uses.
+SSH and Telnet commonly serves the same purpose.
+
+And I learn some Protocol
+ARP
+Converting Network Protocol Addresses to 48-bit Ethernet Address for Transmission on Ethernet Hardware
+ICMP ICMP6  TCP  UDP
+ICMP differs from transport protocols such as TCP and UDP in that it is not typically used to exchange data between systems, nor is it regularly employed by end-user network applications.
