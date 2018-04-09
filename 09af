@@ -1,0 +1,29 @@
+This class we learn what a good system tool should be.
+A great system administration tools should follow some rules:
+repeatability, reliability, regularity, flexibility 
+And the documentation is necessary.
+Because user need to read the document to know how to use the tools. 
+The programming language is important,
+
+scripting language:
+automating very simple tasks
+customization of user environment
+often only suitable for one individual user 
+usually eventually evolves into larger programs
+
+programming language:
+suitable for simple to moderately complex tasks 
+results frequently used by a small base of users 
+uses basic framework or common toolkits 
+provides consistent interface
+
+python is a great scripting language, it is not very fast in running.
+But it is easy to programming and easy to control.
+
+
+Regular Expressions is important skill for system administration
+Because when we analyze the system log there may have thousands lines and that is diffcult to find the massage we need to check.
+Ctrl + F can help us find some information in web page. but it is hard to used on log analyze.
+And regular expression can help us easy and quick find the massage we need.
+And I find a great website to test Regular Expressions 
+https://regex101.com
