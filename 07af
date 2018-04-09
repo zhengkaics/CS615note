@@ -1,0 +1,18 @@
+This class and homework I build a dns server.
+I learn The domain name space consists of a tree of domain names.
+A subtree divides into zones.
+Each node may contain resource records.
+
+And I learn dns can used for deal with HTTP overload and using round-robin to load balance.
+
+And what is cache and how dns cache can accelerate the speed of client find target server.
+And there are 13 root servers in the world. 
+And the root server only accept request from their child node. My dns server request root server are not been accepted.
+During my set my own dns server I learn  what is DNS amplification attack, 
+and I know if I want set up permanent DNS server I need set up a access control list to avoid DNS amplification attack.
+
+And I learn track down packets and identify 3 handshake and the packtes that being sent back and forth and the closing of connection.
+
+
+
+
