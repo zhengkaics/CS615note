@@ -1,0 +1,31 @@
+This class we learn SMTP,HTTPS/TLS
+read materials 
+https://www.hmailserver.com/documentation/v4.2/?page=whatis_pop3imapsmtp
+https://www.instantssl.com/ssl-certificate-products/https.html
+
+I also learn POP3 and IMAP.
+POP3
+POP3 stands for Post Office Protocol. 
+POP3 allows an email client to download an email from an email server. 
+The POP3 protocol is simple and does not offer many features except for download.
+IMAP
+IMAP stands for Internet Message Access Protocol. 
+IMAP shares many similar features with POP3. It, too, is a protocol that an email client can use to download email from an email server. 
+However, IMAP includes many more features than POP3. 
+The IMAP protocol is designed to let users keep their email on the server. 
+
+SMTP IMAP, POP3 work to together make email work.
+You click Send in your email client, say, Outlook Express.
+Outlook Express delivers the email to hMailServer using the SMTP protocol.
+hMailServer delivers the email to Microsoft's mail server, mail.microsoft.com, using SMTP.
+Bill's Mozilla Mail client downloads the email from mail.microsoft.com to his laptop using the POP3 protocol (or IMAP).
+
+And I learn how https works and what the green lock means
+When you request a HTTPS connection to a webpage, the website will initially send its SSL certificate to your browser. 
+This certificate contains the public key needed to begin the secure session. 
+Based on this initial exchange, your browser and the website then initiate the 'SSL handshake'. 
+The SSL handshake involves the generation of shared secrets to establish a uniquely secure connection between yourself and the website.
+
+When a trusted SSL Digital Certificate is used during a HTTPS connection, users will see a padlock icon in the browser address bar. 
+When an Extended Validation Certificate is installed on a web site, the address bar will turn green.
+
