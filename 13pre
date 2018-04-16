@@ -1,0 +1,34 @@
+prepare 13
+This class we will learn security.
+And before class I learn some knowledge from preclass questionnaire.
+
+What is Threat modeling
+Threat modeling is an approach for analyzing the security of an application. 
+It is a structured approach that enables you to identify, quantify, and address the security risks associated with an application.
+
+I read 
+https://security.stackexchange.com/questions/90842/attack-vector-attack-surface-vulnerability-exploit-where-is-the-difference
+learn 
+Vulnerability: a weakness that exposes risk. Unsantitized user inputs can pose a 'vulnerability' by a SQLi method
+
+Exploit: the method of taking advantage of a vulnerability. The code used to send SQL commands to a web application in order to take advantage of the unsanitized user inputs is an 'exploit'.
+
+Attack Vector: the 'route' by which an attack was carried out. SQLi is typically carried out using a browser client to the web application. 
+The web application is the attack vector (possibly also the Internet, the client application, etc.; it depends on your focus).
+
+And difference between private-key or symmetric cryptography and public-key or asymmetric cryptography
+Symmetric encryption uses the same key for enciphering and deciphering the message to be transmitted .
+Asymmetric encryption has 2 pairs of keys,Each pair is interrelated mathematically(usually very large prime numbers) which is the fundamentals of encryption and decryption.
+one pair = Private key + public key
+In this system, each user has an encryption key that is publicly known and a private key that is known only to that user.
+SSH, RSA , bitcoin using  public-key cryptography.
+
+And learn difference between encrypting a string and hashing it.
+A hash is a string or number generated from a string of text. 
+The resulting string or number is a fixed length, and will vary widely with small variations in input. 
+example:MD5 SHA SHA-2
+Encryption turns data into a series of unreadable characters, that aren't of a fixed length.
+
+The key difference between encryption and hashing is that encrypted strings can be reversed back into their original decrypted form if you have the right key.
+
+My question is what is Elliptic-curve cryptography, Why is been used on public-key cryptography algorithm.
