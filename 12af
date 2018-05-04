@@ -1,0 +1,7 @@
+After this class 
+I understand salt hash is important.
+Because hacker can use hashcode find your plaintext from rainbow table.
+I have read some detail about md5 and RSA.
+md5 is not safe because we have some way to make md5 collision now.
+RSA secret key have expired data because use powerful computer can find 
+the two large prime from their production.
