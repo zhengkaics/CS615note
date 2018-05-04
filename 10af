@@ -1,0 +1,18 @@
+Class 10 Backup and Disaster Recovery / Monitoring
+In this class we have learn Backups and Restore Basics
+Because equipment failure, bozotic users, natural disaster, 
+security breach, software bugs or other reason the data will loss.
+That is why we need to backup the data to avoid those disaster destory our system.
+And we have learn some backup strategy:
+Mac OS X "Time Machine" strategy is 
+First: automatically creates a full backup to separate device or NAS, 
+recording (specifically) last-modified date of all directories.
+Second: every hour backup the hardlinks of file not changed
+and copy of files for those files have been changed.
+//The changed file are determined by inspecting last-modified date of directories.
+Thirdly saves hourly backups for 24 hours, daily backups for the past month, 
+and weekly backups for everything older than a month.
+
+That strategy can help us save space and give us more choice of versions.
+
+ZFS snapshots is another backup tool.
