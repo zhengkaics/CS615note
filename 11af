@@ -1,0 +1,15 @@
+This class we have learn Configuration Management.
+I understand two important knowledge of configuration management.
+Idempotence and CAP Theorem.
+
+Idempotence means no matter how many times we do the operation.
+The result is same with do it one time.
+But the idempotence does not guarantee efficiency.
+So we only applied if we needed.
+What I understand is our target is using CM to make system eventually consistent.
+Design CM need follow idempotent rules to reach the target.
+
+Another important knowledge is CAP Theorem 
+Consistency, Availability, Partition tolerance
+CAP theorem not noly work on CM systems 
+but also work on other distributed system like distributed database.
